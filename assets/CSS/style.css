@@ -1,0 +1,35 @@
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        background-color: #ff6830;
+        }
+      main {
+        /* flex: 1 0 auto; */
+      }
+
+      .responsive-img {
+          width: 125px;
+      }
+
+      #header {
+        background-image: url(./../images/header_image.png);
+        height: 135px;
+        background-position: center;
+      }
+
+      #left-card {
+          background-color: #db48db;
+      }
+
+      #gif-title {
+          justify-content: center;
+      }
+
+      #gif-label {
+          width: 350px;
+      }
+
+      #right-card {
+          background-color: #1b9cf7;
+      }

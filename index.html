@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Title of the document</title>
+    <!-- Material Icon CDN -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Your custom styles -->
+      <link rel="stylesheet" href="./assets/CSS/style.css">
+  </head>
+
+  <body>
+    <header>
+        <div class="nav-wrapper" id="header">
+            <div class="container">
+            <a href="" class="brand-logo"><img class="responsive-img" src="./assets/images/Untitled_Artwork.png"></a>
+          </div>
+        </div>
+    </header>
+      
+    <main>
+        <div class="row">
+            <div class="card large col s6" id="left-card">
+                <div class="card-content" id="gif-title">
+                    <img src="./assets/images/gify-card.png" alt="gify-card" class="responsive-img" id="gif-label"/>
+                    <div class="card-title teal" id="gif-spot">
+                        gifs append here
+                        <a href="#">This is a gif</a>
+                        <a href="#">This is a gif</a>
+                        <a href="#">This is a gif</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card large col s6" id="right-card">
+                <div class="card-content" id="button-title">
+                        <h3 class="center-align">#button-title</h3>
+                        <a class="waves-effect waves-light btn-large">Button</a>
+                        <a class="waves-effect waves-light btn-large">Button</a>
+                        <a class="waves-effect waves-light btn-large">Button</a>
+                    </div>
+                </div>
+            </div>
+
+
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8 l6">
+            <h5 class="white-text">First Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col s12 m4 l6">
+            <h5 class="white-text">Second Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery CDN -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize JS CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+      $("document").ready(function(){
+        $(".button-collapse").sideNav();
+      });
+    </script>
+  </body>
+</html>
