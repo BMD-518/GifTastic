@@ -3,13 +3,11 @@
         min-height: 100vh;
         flex-direction: column;
         background-color: #ff6830;
+        background-image: url(./../images/left_card_background.png);
         }
-      main {
-        /* flex: 1 0 auto; */
-      }
 
-      .responsive-img {
-          width: 125px;
+      main {
+        flex: 0 0 auto;
       }
 
       #header {
@@ -18,18 +16,48 @@
         background-position: center;
       }
 
+      .responsive-img {
+          width: 125px;
+      }
+
+
       #left-card {
           background-color: #db48db;
       }
 
       #gif-title {
           justify-content: center;
+          text-align: center;
       }
 
-      #gif-label {
-          width: 350px;
-      }
+      #gif-spot {
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+    }
 
-      #right-card {
-          background-color: #1b9cf7;
-      }
+    #gif-label {
+        width: 350px;
+    }
+    
+    #button-title {
+          text-align: center;
+    }
+
+    #button-spot {
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    }
+
+
+    #button-label {
+        width: 350px;
+        height: 233.33px;
+    }
+
+    #right-card {
+        background-color: #1b9cf7;
+    }
+
+    
