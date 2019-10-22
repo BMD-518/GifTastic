@@ -2,13 +2,12 @@
         display: flex;
         min-height: 100vh;
         flex-direction: column;
-        background-color: #ff6830;
-        background-image: url(./../images/left_card_background.png);
+        background-color: black;
         }
 
 
         .row {
-            margin-top: 6%;
+            margin-top: 2%;
         }
 
 
@@ -28,7 +27,8 @@
 
 
       #left-card {
-          background-color: #db48db;
+          background: transparent;
+          text-align: center;
       }
 
       #gif-title {
@@ -36,12 +36,24 @@
           text-align: center;
       }
 
+      .flex-container {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+      }
+
       #gif-spot {
-        display: flex;
         flex-wrap: wrap;
-        background: transparent;
         text-align: center;
+        color: turquoise;
     }
+
+    #gifDiv {
+        display: inline-block;
+        margin-left: 5%;
+    }
+
+   
 
     #gif-label {
         width: 350px;
@@ -54,7 +66,6 @@
     #button-spot {
     display: flex;
     flex-wrap: wrap;
-    background: transparent;
     }
 
 
@@ -64,7 +75,7 @@
     }
 
     #right-card {
-        background-color: #72F9FA;
+        background: transparent;
     }
 
     .footer {

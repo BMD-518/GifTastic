@@ -1,6 +1,9 @@
 // click event listener on buttons
 $('.btn-large').on('click', function() {
 
+    // clear previously displayed results
+    $('#gif-spot').empty();
+
     // data-name property value sotred from button
     var searchTerm = $(this).attr('data-name');
     // query variable concatenated with searchTerm value
@@ -38,7 +41,7 @@ $('.btn-large').on('click', function() {
                 gifDiv.append(gifImage);
 
                 // prepend gifDiv to DOM in #gif-spot
-                $('#gif-spot').html(gifDiv);
+                $('#gif-spot').prepend(gifDiv);
 
                 
             }
