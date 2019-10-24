@@ -42,6 +42,10 @@
           min-height: 100vh;
       }
 
+      input {
+          color: orange;
+      }
+
       #gif-spot {
           display: inline-block;
         text-align: center;
